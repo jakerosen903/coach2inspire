@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    .w3-grad,
+    .w3-hover-grad:hover {
+        color: #ef4f48 !important;
+        background-image: linear-gradient(to right, #ef4f48, #de266f);
+    }
+
+
+    .JakePink {
+        color: #de266f
+    }
+
+    .JakeRed {
+        color: #eb464c
+    }
+
+    .JakeOrange {
+        color: #ef4f38
+    }
+    
+    
+.top-left {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.top-right {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+}
+.top-centered {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+    /* Force 'html' to be viewport width */
+
+
+    button {
+        width: 50%;
+        border: 1px solid black;
+
+        font-size: 32px;
+        /* 100 = viewport width, as 1vw = 1/100th of that
+       So if the container is 50% of viewport (as here)
+       then factor that into how you want it to size.
+       Let's say you like 5vw if it were the whole width,
+       then for this container, size it at 2.5vw (5 * .5 [i.e. 50%])
+    */
+font-size: 2.7vw;
+        white-space: nowrap;
+
+    }
+
+    #grad1 {
+        height: 60px;
+        background-color: #eb464c;
+        /* For browsers that do not support gradients */
+        background-image: linear-gradient(to right, #ef4f48, #de266f);
+
+    }
+
+    h1,
+    h2,
+    div,
+    p,
+    button {
+        text-align: center;
+    }
+
+    h1,
+    h2,
+    div,
+    p,
+    button {
+        font-family: "DIN Condensed"
+    }
+</style>
+
+<body>
+
+
+
+
+    <div class="w3-bar w3-grad w3-xxlarge w3-center" style="width:100%">
+        <img class="w3-bar-item" src="https://live.staticflickr.com/65535/50429796287_eed24595b9_m.jpg" width=65px height=65px alt=“Coach2Inspire”>
+        <button class="w3-bar-item w3-button w3-border w3-border-white" style="color:white;" onclick="openpage('page1')">HOME</button>
+        <button class="w3-bar-item w3-button w3-border w3-border-white" style="color:white;" onclick="openpage('page2')">ABOUT US</button>
+        <button class="w3-bar-item w3-button w3-border w3-border-white" style="color:white;" onclick="openpage('page6')">COACHES</button>
+        <button class="w3-bar-item w3-button w3-border w3-border-white" style="color:white;" onclick="openpage('page3')">FALL BASKETBALL ACADEMY</button>
+        <button class="w3-bar-item w3-button w3-border w3-border-white" style="color:white;" onclick="openpage('page4')">HOME WORKOUT VIDEOS</button>
+        <button class="w3-bar-item w3-button w3-border w3-border-white" style="color:white;" onclick="openpage('page5')">CONTACT US</button>
+    </div>
+
+    <!-- break1 -->
+   <div id="page1" class="w3-container city">
+        <h1 class="w3-xxlarge JakeRed" style=color:JakeRed>INSPIRING YOUTH DEVELOPMENT THROUGH SPORTS COACHING</h1>
+
+
+        <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:1px" id="home">
+            <img class="w3-image" src="https://live.staticflickr.com/65535/50499699662_23520a8829_o.jpg" width="1600" height="800">
+            <div class="top-left">
+                <h1 class="w3-text-white w3-hover-shadow" style = "font-size:4.0vw" onclick="openpage('teamwork')">Teamwork</h1></div>
+                <div class="top-centered"><h1 class="w3-text-white w3-hover-shadow" style = "font-size:4.0vw" onclick="openpage('self')">Self-Actualization</h1></div>
+               <div class="top-right"> <h1 class="w3-text-white w3-hover-shadow" style = "font-size:4.0vw" onclick="openpage('active')">Active Living</h1>
+            </div>
+        </header>
+<h1  class="w3-center w3-xlarge JakeRed" style="color:black">
+            <p class = "w3-large">Coach2Inspire is a 501 © 3 national non-profit organization with a mission to ___.</p>
+        <h1 id="grad1" class="w3-center w3-xxxlarge JakeRed" style="color:white">
+            <p>Our Mission</p>
+        </h1>
+        </h1>
+
+        <div class style="padding:5px 16px" style=w3-right>
+
+            <h1 class="w3-xxlarge" style=color:black>Our mission is to inspire youth to live healthy lifestyles and become mentally and physically fit, develop interpersonal skills, and self actualize through basketball coaching and individualized mentorship <br><br> We act on such goals through two primary outlets: </h1>
+
+        </div>
+
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col m6">
+                <div class="card">
+
+
+
+                    <h1 class="w3-xlarge">1. By providing university students as coaches for youth in organized sports leagues and Coach2Inspire programs.</h1>
+
+                    <img class="w3-hover-shadow" src="https://live.staticflickr.com/65535/50561882822_e9443217df_o.jpg" alt="home image" class="drem-img" width=90% height=90%>
+                </div>
+            </div>
+
+            <div class="w3-col m6">
+                <div class="card">
+
+
+
+                    <h1 class="w3-xlarge">2. By establishing partnerships and connections between university groups/resources and community members.</h1>
+<img class="w3-hover-shadow" src="https://live.staticflickr.com/65535/50429316448_ac1bb43f82_o.jpg" width=90% height=90% alt="Kid with coachXL">
+
+                   
+                </div>
+            </div>
+        </div>
+
+
+        <div style="padding 155px 116px">
+            <h1 id="grad1" class="w3-center w3-xxxlarge JakeRed" style="color:white">
+                <p>Our Impact</p>
+            </h1>
+            <div class="w3-row w3-padding-32 w3-center" id="about us">
+
+                <div class="w3-col m6 w3-padding-32">
+
+
+                    <div style="padding:25px 16px">
+
+                        <h1 style="color:#000000; font-size:200%"> 1. Coach2Inspire provided 30 coaches that coached 13 teams for the 2019-2020 Durham Parks and Rec Winter Basketball League. This constituted over half of the entire league, the equivalent of over 150 kids.</h1>
+<h1 style="color:#000000; font-size:200%">                        
+	<br>2. During the national quarantine Coach2Inspire produced a series of at-home workout videos with athletes from Duke University including both the Men’s and Women’s Basketball Teams.</h1>
+    <h1 style="color:#000000; font-size:200%">
+	<br>3. Coach2Inspire is designing and hosting a fully socially distanced basketball academy in partnership with Durham Parks and Rec in place of the 2020-2021 Winter Basketball League for 64 kids in the Durham Area.
+</h1>
+                        
+                       
+                        
+                        </div>
+                    </div>
+               
+
+
+
+                <div class="w3-col m6">
+                    <ul class="w3-ul w3-white w3-hover-shadow"> <br><br><br>
+                        <img src="https://live.staticflickr.com/65535/50429316478_ed18b9d26b_o.jpg" width=100% height=100% alt="Groupshot of kids">
+
+                        <h4 style=color:grey><b>Number of Kids Coached</b></h4>
+                        <p class="JakeRed" style="font-size:400%;">150+</p>
+                    </ul>
+                    <ul class="w3-ul w3-white w3-hover-shadow">
+                        <img src="https://live.staticflickr.com/65535/50541476503_b6c2760afb_o.jpg" width=75% height=75% alt="Kid with coachXL">
+                        <h4 style=color:grey><b>Number of Coaches</b></h4>
+                        <p class="w3-text-red JakeRed" style="font-size:400%;">25+</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="grad1">
+
+        </div>
+        
+
+    </div>
+
+
+  
+
+
+    <!-- Coaches -->
+    <div id="page6" class="w3-container city">
+        <img class="w3-image" src="https://live.staticflickr.com/65535/50557194372_8937c946c9_o.jpg" width="1600" height="800">
+        
+        <h1 id="grad1" class="w3-center w3-xxxlarge JakeRed" style="color:white">
+                <p>Our Coaches</p>
+            </h1>
+            
+   
+
+            <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px" id="next">
+
+            <div class="w3-row w3-padding-64" id="">
+                <div class="w3-col m6 w3-padding-large">
+                    <ul class="w3-ul w3-white w3-hover-shadow">
+                       <img class = "w3-round w3-image " src="https://live.staticflickr.com/65535/50557194492_836b68d0c9_o.jpg" width=60% height=60% alt="Abhi"> </ul>
+                </div>
+
+                <div class="w3-col m6 w3-padding-large">
+                    <h1 class="w3-center" style="color:black"> Abhi Balu</h1>
+                    <p class="w3-xlarge JakeRed" style="color:JakeRed">President and Founder</p>
+                    <p class="w3-large"></p>
+                    <p class="w3-large w3-text-grey w3-hide-medium"></p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="w3-row w3-padding-64" id="">
+            <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center" style="color:black">Nate Tewell</h1>
+                <p class="w3-xlarge JakeRed" style="color:JakeRed">Vice-President</p>
+                <p class="w3-large"></p>
+                <p class="w3-large w3-text-grey w3-hide-medium"></p>
+
+            </div>
+
+            <div class="w3-col m6 w3-padding-large">
+
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                       <img class = "w3-round w3-image " src="https://live.staticflickr.com/65535/50556331418_70950f92d6_o.jpg" width=60% height=60% alt="Nate"> </ul>
+            </div>
+
+
+</div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px" id="next">
+            <div class="w3-row w3-padding-64" id="">
+                <div class="w3-col m6 w3-padding-large">
+                    <ul class="w3-ul w3-white w3-hover-shadow">
+                       <img class = "w3-round w3-image " src="https://live.staticflickr.com/65535/50564663333_0ed437b5dd_o.jpg" width=60% height=60% alt="Caroline"> </ul>
+                </div>
+
+                <div class="w3-col m6 w3-padding-large">
+                    <h1 class="w3-center" style="color:black"> Caroline Olsen</h1>
+                    <p class="w3-xlarge JakeRed" style="color:JakeRed">COO</p>
+                    <p class="w3-large"></p>
+                    <p class="w3-large w3-text-grey w3-hide-medium"></p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+       
+
+        <div class="w3-row w3-padding-64" id="">
+            <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center" style="color:black">Cody Perry</h1>
+                <p class="w3-xlarge JakeRed" style="color:JakeRed">Coach</p>
+                <p class="w3-large"></p>
+                <p class="w3-large w3-text-grey w3-hide-medium"></p>
+
+            </div>
+
+            <div class="w3-col m6 w3-padding-large">
+
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                       <img class = "w3-round w3-image " src="https://live.staticflickr.com/65535/50557065336_5e7e87bc4d_o.jpg" width=60% height=60% alt="Cody"> </ul>
+            </div>
+</div>
+
+
+
+
+
+ <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px" id="next">
+            <div class="w3-row w3-padding-64" id="">
+                <div class="w3-col m6 w3-padding-large">
+                    <ul class="w3-ul w3-white w3-hover-shadow">
+                       <img class = "w3-round w3-image " src="https://live.staticflickr.com/65535/50557065176_378f93fc5f_o.jpg" width=60% height=60% alt="Blade"> </ul>
+                </div>
+
+                <div class="w3-col m6 w3-padding-large">
+                    <h1 class="w3-center" style="color:black"> Blade Clark</h1>
+                    <p class="w3-xlarge JakeRed" style="color:JakeRed">Coach</p>
+                    <p class="w3-large"></p>
+                    <p class="w3-large w3-text-grey w3-hide-medium"></p>
+               </div>
+
+
+
+            </div>
+        </div>
+
+
+           
+       
+
+        <div class="w3-row w3-padding-64" id="">
+            <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center" style="color:black">Rob Wilds</h1>
+                <p class="w3-xlarge JakeRed" style="color:JakeRed">Coach</p>
+                <p class="w3-large"></p>
+                <p class="w3-large w3-text-grey w3-hide-medium"></p>
+
+            </div>
+
+            <div class="w3-col m6 w3-padding-large">
+
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                       <img class = "w3-round w3-image " src="https://live.staticflickr.com/65535/50557065461_d6740acb0f_o.jpg" width=60% height=60% alt="Rob"> </ul>
+            </div>
+</div>
+
+
+
+
+
+			 <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px" id="next">
+            <div class="w3-row w3-padding-64" id="">
+                <div class="w3-col m6 w3-padding-large">
+                    <ul class="w3-ul w3-white w3-hover-shadow">
+                       <img class = "w3-round w3-image " src="https://live.staticflickr.com/65535/50557194592_d24613e443_o.jpg" width=60% height=60% alt="Jake"> </ul>
+                </div>
+
+                <div class="w3-col m6 w3-padding-large">
+                    <h1 class="w3-center" style="color:black"> Jake Rosen</h1>
+                    <p class="w3-xlarge JakeRed" style="color:JakeRed">Coach</p>
+                    <p class="w3-large"></p>
+                    <p class="w3-large w3-text-grey w3-hide-medium"></p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="w3-row w3-padding-64" id="">
+            <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center" style="color:black">Luke Bulczynski</h1>
+                <p class="w3-xlarge JakeRed" style="color:JakeRed">Coach</p>
+                <p class="w3-large"></p>
+                <p class="w3-large w3-text-grey w3-hide-medium"></p>
+
+            </div>
+
+            <div class="w3-col m6 w3-padding-large">
+
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                       <img class = "w3-round w3-image " src="https://live.staticflickr.com/65535/50557065536_f6940095a7_o.jpg" width=60% height=60% alt="Rob"> </ul>
+            </div>
+
+</div>
+
+
+
+
+
+			 <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px" id="next">
+            <div class="w3-row w3-padding-64" id="">
+                <div class="w3-col m6 w3-padding-large">
+                    <ul class="w3-ul w3-white w3-hover-shadow">
+                       <img class = "w3-round w3-image " src="https://live.staticflickr.com/65535/50566300713_59ab997e21_o.jpg" width=60% height=60% alt="Jake"> </ul>
+                </div>
+
+                <div class="w3-col m6 w3-padding-large">
+                    <h1 class="w3-center" style="color:black"> Will Tenpas</h1>
+                    <p class="w3-xlarge JakeRed" style="color:JakeRed">Coach</p>
+                    <p class="w3-large"></p>
+                    <p class="w3-large w3-text-grey w3-hide-medium"></p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="w3-row w3-padding-64" id="">
+            <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center" style="color:black">Kinsie Huggins</h1>
+                <p class="w3-xlarge JakeRed" style="color:JakeRed">Coach</p>
+                <p class="w3-large"></p>
+                <p class="w3-large w3-text-grey w3-hide-medium"></p>
+
+            </div>
+
+            <div class="w3-col m6 w3-padding-large">
+
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                       <img class = "w3-round w3-image " src="https://live.staticflickr.com/65535/50557065411_6dde381c32_o.jpg" width=60% height=60% alt="Kinsie"> </ul>
+            </div>
+
+<div> 
+
+
+
+			 <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px" id="next">
+            <div class="w3-row w3-padding-64" id="">
+                <div class="w3-col m6 w3-padding-large">
+                    <ul class="w3-ul w3-white w3-hover-shadow">
+                       <img class = "w3-round w3-image " src="https://live.staticflickr.com/65535/50556331668_b69f1309c2_o.jpg" width=60% height=60% alt="Jake"> </ul>
+                </div>
+
+                <div class="w3-col m6 w3-padding-large">
+                    <h1 class="w3-center" style="color:black"> Manny Mokel</h1>
+                    <p class="w3-xlarge JakeRed" style="color:JakeRed">Coach</p>
+                    <p class="w3-large"></p>
+                    <p class="w3-large w3-text-grey w3-hide-medium"></p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="w3-row w3-padding-64" id="">
+            <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center" style="color:black">Jocelyn Chin</h1>
+                <p class="w3-xlarge JakeRed" style="color:JakeRed">Coach</p>
+                <p class="w3-large"></p>
+                <p class="w3-large w3-text-grey w3-hide-medium"></p>
+
+            </div>
+
+            <div class="w3-col m6 w3-padding-large">
+
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                       <img class = "w3-round w3-image " src="https://live.staticflickr.com/65535/50556331498_8486e34a1d_o.jpg" width=60% height=60% alt="Jocelyn"> </ul>
+            </div>
+
+
+
+
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px" id="next">
+            <div class="w3-row w3-padding-64" id="">
+                <div class="w3-col m6 w3-padding-large">
+                    <ul class="w3-ul w3-white w3-hover-shadow">
+                       <img class = "w3-round w3-image " src="https://live.staticflickr.com/65535/50556331568_75d4d8fea1_o.jpg" width=60% height=60% alt="Jake"> </ul>
+                </div>
+
+                <div class="w3-col m6 w3-padding-large">
+                    <h1 class="w3-center" style="color:black"> Simon Attenberger</h1>
+                    <p class="w3-xlarge JakeRed" style="color:JakeRed">Coach</p>
+                    <p class="w3-large"></p>
+                    <p class="w3-large w3-text-grey w3-hide-medium"></p>
+                </div>
+
+
+
+            </div>
+       
+	 
+        
+
+
+
+<div id="grad1">
+
+        </div>
+      
+    </div>
+    </div>
+      
+    </div>
+    </div>
+      
+    </div>
+
+
+    <!-- about us -->
+    <div id="page2" class="w3-container city" style="display:none">
+
+
+<img class="w3-image" src="https://live.staticflickr.com/65535/50535167632_58af78b897_o.jpg">
+<br>
+
+
+
+
+
+<h1 id="grad1" class="w3-center w3-xxxlarge JakeRed" style="color:white">
+                <p>Why Coach2Inspire?</p>
+            </h1>
+
+
+ <h1 class="w3-xlarge JakeRed" style=color:black>Our work fills a void that is seen in sports education throughout the nation:</h1>
+   <div class="w3-container w3-content w3-center " style="max-width:1200px" id="Nantucket Shark Protection Program">
+           
+        
+            <div class="w3-row " id="about">
+                <div class="w3-col m6 w3-padding-large">
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                        <img src="https://live.staticflickr.com/65535/50565578377_e7d6c5ca99_o.jpg" class="w3-round w3-image " width="600" height="750">
+                    </ul>
+                
+                
+                    <h1 class="w3-center JakeRed w3-xlarge" style="color:JakeRed">We provide coaches that children can actually relate to.</h1>
+
+                    <p class="w3-large">Our coaches are active college students of all races and genders in their late teens and early twenties. This is the demographic that youth most want to emulate and consequently are the best at truly connecting with and inspiring youth.</p>
+                  
+                </div>
+
+                <div class="w3-col m6 w3-padding-large">
+                    <ul class="w3-ul w3-white w3-hover-shadow">
+                        <img src="https://live.staticflickr.com/65535/50565578442_5288b7e15a_o.jpg" class="w3-round w3-image " width="600" height="750">
+    
+                    </ul>
+                    <h1 class="w3-center JakeRed w3-xlarge" style="color:JakeRed">We coach the person and the player.</h1>
+
+                    <p class="w3-large">We take a holistic approach to coaching to ensure that youth not only realize the mental and physical benefits of playing sports, but that they also grow as people and pioneers of the coming generations.</p>
+               
+                
+                    
+                </div>
+                
+            </div>
+<div class="w3-container w3-content w3-center " style="max-width:1200px" id="Nantucket Shark Protection Program">
+           
+        
+            <div class="w3-row " id="about">
+                <div class="w3-col m6 w3-padding-large">
+                
+                   
+<ul class="w3-ul w3-white w3-hover-shadow">
+                        <img src="https://live.staticflickr.com/65535/50429758866_0a9c920607_o.jpg" class="w3-round w3-image " width="600" height="750">
+                    </ul>
+                     <h1 class="w3-center JakeRed w3-xlarge" style="color:JakeRed">Our coaches are rigorously trained and extremely well-equipped.</h1>
+
+                    <p class="w3-large">All of our coaches go through a rigorous coaching training program designed by the leaders of Coach2Inspire. This training consists of pre-season coaching seminars,weekly in-season coach development sessions, and end-of season reflections.</p>
+                   
+                </div>
+
+                <div class="w3-col m6 w3-padding-large">
+               
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                
+                        <img src="https://live.staticflickr.com/65535/50564691863_697363336e_o.jpg" class="w3-round w3-image " width="600" height="750">
+    
+                    </ul>
+                     <h1 class="w3-center JakeRed w3-xlarge" style="color:JakeRed">We connect communities.</h1>
+
+                    <p class="w3-large">We’ve created partnerships with groups at both Duke University and in the Durham community to bring some of the best resources at Duke to Durham. To name a few, we have connected Division 1 Athletics teams at Duke such as the Men’s Soccer Team with DPR to run free clinics for children in Durham. We have also provided coaches/trainers for BullCityFit, an organization that focuses on treatment for clinically obese children in Durham.</p>
+                    
+                </div>
+                
+            </div>
+
+        </div>
+
+<h1 id="grad1" class="w3-center w3-xxxlarge JakeRed" style="color:white">
+                <p>Our Social Media and Partners</p>
+            </h1>
+
+        
+
+        <div class="w3-row" id="">
+            <div class="w3-col w3-panel w3-border w3-border-red m6 w3-padding-xlarge">
+                <h1 class="w3-center" style="color:black">Social Media</h1>
+
+                <h2 class="w3-center JakeRed" style="color:JakeRed">Facebook</h2>
+
+                <p class="w3-large">Click on the logo to go to check us out!</p>
+
+
+                <p class="w3-large">
+                    <p><a href="https://www.facebook.com/Coach2Inspire-108957337463684">
+                            <ul class="w3-ul w3-white w3-hover-shadow"><img src="https://live.staticflickr.com/65535/50498643898_961996fbeb_o.png" width="70" height="50"></ul>
+                        </a> </p>
+
+                    <br>
+                    <br>
+                    <h2 class="w3-center JakeRed" style="color:JakeRed">Instagram</h2>
+
+                    <p class="w3-large">Click on the logo to go to check us out!</p>
+                    <p class="w3-large">
+                        <p><a href="https://www.instagram.com/coach_2inspire/"><img src="https://live.staticflickr.com/65535/50499517931_e8c3cb79c0_o.jpg" width="50" height="50"></a> </p>
+
+                        <br>
+                        <br>
+
+                        
+            </div>
+            <div class="w3-col w3-panel w3-border w3-border-red m6 w3-padding-xlarge">
+                <h1 class="w3-center" style="color:black">Our Partners</h1>
+				
+                      
+                
+                <h2 class="w3-center JakeRed" style="color:JakeRed">USA Basketball</h2>
+                
+                
+                 <p><a href="https://www.usab.com/">
+                            <ul class="w3-ul w3-white"><img src="https://live.staticflickr.com/65535/50499437462_7f70569b22_o.png" width="100" height="100"></ul>
+                        </a> </p>
+                        
+            
+                <p class="w3-large"></p>
+                <br>
+                <br>
+                <h2 class="w3-center JakeRed" style="color:JakeRed">Junior NBA</h2>
+                
+                
+                <p><a href="https://jr.nba.com/">
+                            <ul class="w3-ul w3-white"><img src="https://live.staticflickr.com/65535/50499348376_0b96e78848_o.png" width="100" height="100"></ul>
+                        </a> </p>
+
+                <p class="w3-large"></p>
+                <br>
+                <br>
+                <h2 class="w3-center JakeRed" style="color:JakeRed">DPR</h2>
+                
+                
+                <p><a href="https://www.dprplaymore.org/">
+                            <ul class="w3-ul w3-white"><img src="https://live.staticflickr.com/65535/50534948551_b948c64058_o.png" width="100" height="100"></ul>
+                        </a> </p>
+                        
+                        
+                <p class="w3-large"></p>
+                <br>
+                <br>
+</div>
+            </div>
+        </div>
+        <div id="grad1">
+</div>
+        </div>
+        
+
+  
+
+
+
+    <!--Fall basketball academy -->
+    <div id="page3" class="w3-container city" style="display:none">
+        <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:1px" id="home">
+            <img class="w3-image" src="https://live.staticflickr.com/65535/50429650721_c98cf00d41_o.jpg" width="1600" height="800">
+        </header>
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Nantucket Shark Protection Program">
+
+            <h2 style="color:black">Coming soon...</h2>
+
+            <p class="w3-justify w3-center w3-xxxlarge JakeRed" style="color:JakeRed">
+            </p>
+        </div>
+       <div id="grad1">
+
+        </div>
+    </div>
+
+    <!-- @home workout videos -->
+    <div id="page4" class="w3-container city" style="display:none">
+        <img class="w3-image" src="https://live.staticflickr.com/65535/50541483298_c5eeb6bce5_o.jpg" width="1600" height="800">
+        <div class="w3-display-bottommiddle ">
+            <h1 class="w3-xxxlarge w3-text-white">Keep Your Head in the Game (From Home!)</h1>
+        </div>
+        <div class="w3-container w3-content w3-center " style="max-width:8000px" id="Nantucket Shark Protection Program">
+
+            <p class="w3-justify w3-center w3-xlarge">Visit our Youtube Channel With a Click on the Link Below!
+                <p class="w3-justify w3-center w3-xlarge"><a href="https://www.youtube.com/channel/UCXV20CZGhBj6-UnrvPiuImQ"><img src="https://live.staticflickr.com/65535/50535277437_16624b28f0_o.png" width=12% height=12% alt="download"></a>
+                </p>
+            
+            <h1 id="grad1" class="w3-center w3-xxxlarge JakeRed" style="color:white">
+                <p>Recent Videos</p>
+            </h1>
+            
+        </div>
+
+
+        <div class="w3-row  w3-padding-64" id="">
+            <div class="w3-col m6 w3-padding-large">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/6DSmXl28c4U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br><br>
+            </div>
+            <div class="w3-col m6 w3-padding-large">
+
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/3HqpmUZ811E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br><br>
+
+            </div>
+
+        </div>
+       <div id="grad1">
+
+        </div>
+    </div>
+
+
+    <!-- Get Involved -->
+    <div id="page5" class="w3-container city" style="display:none">
+
+    <img class="w3-image" src="https://live.staticflickr.com/65535/50534299603_c4311d7688_o.jpg" width="1600" height="800">
+       
+
+        <h1 class="JakeRed w3-xxlarge w3-center" style=color:JakeRed> Want a way to support Coach2Inspire? <br> Donate or reach out below! </h1>
+        
+        <p style = "font-size:18px">During these difficult times, Coach2Inspire is committed to ensuring that every child has the ability to learn, play, and grow through the game of basketball. To that end, we need your help in ensuring that we can do so.
+<br>
+We would like to purchase a basketball for every child along with several basketball cones and other sports equipment. Your money will go towards ensuring that we provide the highest quality sports experience for the kids that need it the most.
+<br>
+Thank You for your continued support.
+</p>
+
+
+        
+
+            
+                <p class="w3-jumbo"><a href="https://www.paypal.com/donate?hosted_button_id=7L76RLBQC5JY8"><img src="https://live.staticflickr.com/65535/50563557767_7b479bd95f_o.png" width=30% height=30%></a> </p>
+
+<p>
+Still feel free to reach out with any other questions at Abhi.Balu@Duke.edu
+<br>
+We look forward to your message!
+</p>
+
+        
+<div id="grad1">
+
+        </div>
+</div>
+ <!-- Teamwork page -->
+<div id="teamwork" class="w3-container city" style="display:none">
+<h1 class="JakeRed w3-jumbo"><u>Teamwork</u></h1>
+<div class="w3-col w3-xlarge w3-center">
+	
+    <div class="w3-row">
+	<img src ="https://live.staticflickr.com/65535/50561871612_eb11bebed6_o.jpg" width=100% height=100%>
+  
+	</div>
+    
+	<div class="w3-row" style = "text-align: center">
+	<h1> Teamwork is an increasingly important skill in the world. Whether on the court or in the workplace, collaboration has become a necessary condition for success. Our coaches aim to facilitate positive peer-to-peer interactions. We focus on drills and discussions that emphasize mutual-support, constructive feedback, and shared success. We teach individuals to celebrate team success and take responsibility for their role in team shortcomings.</h1>
+	</div>
+
+
+
+</div>
+</div>
+ <!-- Teamwork page -->
+<div id="self" class="w3-container city" style="display:none">
+<h1 class="JakeRed w3-jumbo"><u>Self-actualization</u></h1>
+
+<div class="w3-col w3-center">
+	
+    <div class="w3-row">
+	<img src ="https://live.staticflickr.com/65535/50560997353_70425e05f6_o.jpg" width=100% height=100%>
+	</div>
+    
+	<div class="w3-row" style = "text-align: center">
+	<h1> Self-Actualization refers to the holistic development of each individual. While we strive to improve skill in the game of basketball, fundamentally, it is our utmost priority that we maximize the potential of each and every child we interact with. In practice, this means stressing perseverance, celebrating individual differences, and pushing children beyond their comfort zones to promote holistic development.</h1>
+	</div>
+
+
+
+</div>
+</div>
+
+
+
+ <!-- Active living page -->
+<div id="active" class="w3-container city" style="display:none">
+<h1 class="JakeRed w3-jumbo"><u>Active Living</u></h1>
+
+<div class="w3-col w3-center">
+	
+    <div class="w3-row">
+	<img src ="https://live.staticflickr.com/65535/50560997353_70425e05f6_o.jpg" width=100% height=100%>
+	</div>
+    
+	<div class="w3-row" style = "text-align: center">
+	<h1> Active living promotes the physical and mental wellness of each player. We focus on outcomes that transcend sports such as reducing childhood obesity and increasing educational attainment. We recognize that a healthy lifestyle is built on the habits formed in our youth. By providing support for healthy living through nutrition as well as sport, we hope to promote healthy habits that will stick with players throughout their lives.</h1>
+	</div>
+
+
+
+</div>
+</div>
+
+
+
+    <!-- Header -->
+    <script>
+        function openpage(cityName) {
+            var i;
+            var x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(cityName).style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>
